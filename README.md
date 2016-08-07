@@ -12,6 +12,7 @@ IFTTT Maker ChannelでのHTTP通信をMilkcocoaの特定のデータストアに
 
 ## 参考記事
 
+* [HTTPでMilkcocoaが使えるHerokuサーバーを気軽に立ち上げられるHeroku Buttonを作りました | Milkcocoa Engineers' Blog](http://blog.mlkcca.com/backend/milkcocoa-heroku-button/)
 * [Heroku | Introducing Heroku Button](https://blog.heroku.com/archives/2014/8/7/heroku-button)
 
 ## はじめの値の設定方法
