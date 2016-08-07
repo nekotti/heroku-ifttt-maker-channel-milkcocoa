@@ -72,7 +72,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 app.get('/', function(request, response) {
-    response.send('Hello World!');
+    response.send('Hello Milkcocoa & IFTTT!');
 });
 
 // IFTTTから送信されてきたデータをMilkcocoaに通知する
