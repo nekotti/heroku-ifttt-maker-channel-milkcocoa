@@ -1,0 +1,16 @@
+{
+  "name": "ifttt-maker-channel-milkcocoa",
+  "description": "IFTTT Maker Channel Milkcocoa Server",
+  "repository": "https://github.com/1ft-seabass/heroku-ifttt-maker-channel-milkcocoa",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "milkcocoa","ifttt"],
+  "env": {
+    "IFTTT_SECURITY_KEY": "",
+    "MILKCOCOA_APP_ID":"",
+    "IFTTT_RECEIVE_DATASTORE_ID": "IFTTTReceiveData",
+    "IFTTT_RECEIVE_URL":"/ifttt/receive",
+    "IFTTT_SEND_DATASTORE_ID": "IFTTTSendData",
+    "IFTTT_SEND_EVENT_NAME":"IFTTTSendData",
+    "IFTTT_SEND_URL":"/ifttt/send"
+  }
+}
