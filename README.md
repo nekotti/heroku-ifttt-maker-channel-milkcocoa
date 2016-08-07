@@ -1,4 +1,4 @@
-# IFTTT Maker Channel SocketIO Server
+# IFTTT Maker Channel Milkcocoa Server
 
 HerokuでNodeJS(Express)をベースにした、IFTTT Maker ChannelとMilkcocoaが連携するサーバーです。
 
