@@ -1,3 +1,7 @@
+#  1ft-seabass さんからフォークしました。
+Mythings からくるJsonを編集しmilkcocoaにpush するものを作成します。
+
+
 # IFTTT Maker Channel Milkcocoa Server
 
 HerokuでNodeJS(Express)をベースにした、IFTTT Maker ChannelとMilkcocoaが連携するサーバーです。
@@ -8,7 +12,7 @@ IFTTT Maker ChannelでのHTTP通信をMilkcocoaの特定のデータストアに
 
 以下のHeroku Buttonを押してHerokuアプリを作成しましょう。
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/1ft-seabass/heroku-ifttt-maker-channel-milkcocoa)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/nekotti/heroku-ifttt-maker-channel-milkcocoa)
 
 ## 参考記事
 
