@@ -82,7 +82,19 @@ app.post(IFTTT_RECEIVE_URL, function(request, response) {
     console.log('---------- input[/ifttt/receive]');
     console.log(request.body);
     response.send("{'request':'/ifttt/receive'}");
-    var valueweather = request.body.values[0];
+    var valueTest = request.body.values[0];
+    delete valueTest.url;
+    delete valueTest.jisName;
+    delete valueTest.date;
+    delete valueTest.image;
+    delete valueTest.highTemp;
+    delete valueTest.lowTemp;
+    delete valueTest.precip;
+    delete valueTest.wind;
+    delete valueTest.wave;
+    
+  if (item.name != "a") return true;
+});
     receiveDataStore.push(valueweather);
 });
 
