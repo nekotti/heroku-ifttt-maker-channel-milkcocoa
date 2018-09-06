@@ -82,7 +82,8 @@ app.post(IFTTT_RECEIVE_URL, function(request, response) {
     console.log('---------- input[/ifttt/receive]');
     console.log(request.body);
     response.send("{'request':'/ifttt/receive'}");
-    receiveDataStore.push(request.body);
+    var valueweather = request.body.values[0];
+    receiveDataStore.push(valueweather);
 });
 
 // Milkcocoaが受信されたデータをIFTTTに通知する HTTPアクセス版
