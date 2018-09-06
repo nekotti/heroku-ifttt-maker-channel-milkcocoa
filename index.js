@@ -92,10 +92,7 @@ app.post(IFTTT_RECEIVE_URL, function(request, response) {
     delete valueTest.precip;
     delete valueTest.wind;
     delete valueTest.wave;
-    
-  if (item.name != "a") return true;
-});
-    receiveDataStore.push(valueweather);
+    receiveDataStore.push(valueTest);
 });
 
 // Milkcocoaが受信されたデータをIFTTTに通知する HTTPアクセス版
